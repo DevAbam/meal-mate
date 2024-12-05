@@ -25,7 +25,7 @@ export default function Home() {
             </p>
             <p className="w-[85%] font-sans text-black">
               Our team keeps a keen eye on emerging trends and technologies to
-              ensure your marketing campaigns remain cutting edge
+              ensure your marketing campaigns remain cutting edge !
             </p>
             <div className="h-12 p-3 text-white bg-[#e8505b] grid place-content-center rounded-lg">
               Terms & Conditions
