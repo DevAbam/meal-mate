@@ -22,7 +22,7 @@ const Chooseus = () => {
   return (
     <div className="  bg-orange-400/70 -mt-14 pt-16 pb-10">
       <div className=" w-[80%] pb-10 mb-10 mx-auto">
-        <div className="  flex items-center gap-10 justify-between h-96 ">
+        <div className="  flex flex-col sm:flex sm:flex-row items-center gap-10 justify-between sm:h-96 ">
           <div className="   h-full grid place-content-center flex-1">
             <Image
               src={chooseusimg}
@@ -32,7 +32,7 @@ const Chooseus = () => {
           </div>
           <div className=" h-full flex-1">
             <div>
-              <h2 className=" text-4xl font-bold">
+              <h2 className=" text-center sm:text-start text-4xl font-bold">
                 Why People <span className="text-[#e8505b]">Choose</span> Us?
               </h2>
               <div className=" flex flex-col">

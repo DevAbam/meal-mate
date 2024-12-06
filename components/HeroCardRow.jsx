@@ -10,40 +10,42 @@ const HeroCardRow = () => {
     {
       icon: convinient,
       heading: "Quality Food",
-      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit. ",
+      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit isit dolor magasssan adipisicing elit. ",
     },
     {
       icon: FastDelivery,
       heading: "Fast Delivery",
-      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit. ",
+      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit isit dolor magasssan adipisicing elit. ",
     },
     {
       icon: cash,
       heading: "Cash by Hand",
-      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit. ",
+      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit isit dolor magasssan adipisicing elit. ",
     },
     {
       icon: checkout,
       heading: "Check out",
-      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit. ",
+      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit isit dolor magasssan adipisicing elit. ",
     },
   ];
   return (
     <div className=" py-16 mb-14 w-full">
-      <div className=" w-[80%] flex  justify-between mx-auto ">
+      <div className=" w-[80%] flex flex-col sm:flex sm:flex-row justify-between items-center mx-auto ">
         {cardData.map((card) => (
           <div
             key={card.heading}
-            className=" cursor-pointer hover:scale-105 ease-linear h-80 rounded-lg w-64 p-4 shadow-lg flex flex-col items-center justify-center gap-5"
+            className="  mb-2 sm:mb-0  cursor-pointer hover:scale-105 ease-linear h-80 w-[90%] sm:w-64 rounded-lg  p-4 shadow-lg flex flex-col items-center justify-around"
           >
-            <div className=" h-24 w-24  rounded-full grid place-content-center">
+            <div className=" h-24 w-24 pt-3  rounded-full grid place-content-center">
               <Image height={80} width={80} src={card.icon} alt="img" />
             </div>
             <p className=" text-center text-2xl font-semibold">
               {card.heading}
             </p>
             <p className=" text-center text-md text-black/60">{card.desc}</p>
-            <Link href={"/"}>learn more</Link>
+            <Link href={"/"} className=" text-[#e8505b]">
+              learn more
+            </Link>
           </div>
         ))}
       </div>
