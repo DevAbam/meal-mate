@@ -7,26 +7,26 @@ import convinient from "../public/assets/convinient.jpg";
 import Image from "next/image";
 const HeroCardRow = () => {
   const cardData = [
-    {
-      icon: convinient,
-      heading: "Quality Food",
-      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit isit dolor magasssan adipisicing elit. ",
-    },
-    {
-      icon: FastDelivery,
-      heading: "Fast Delivery",
-      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit isit dolor magasssan adipisicing elit. ",
-    },
-    {
-      icon: cash,
-      heading: "Cash by Hand",
-      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit isit dolor magasssan adipisicing elit. ",
-    },
-    {
-      icon: checkout,
-      heading: "Check out",
-      desc: "Lorem, ipsum dolor sit amet consectetur isit dolor magasssan adipisicing elit isit dolor magasssan adipisicing elit. ",
-    },
+  {
+    icon: convinient,
+    heading: "Quality Food",
+    desc: "Freshly cooked meals from top-rated restaurants and local chefs. Every dish is made with the highest standards for taste and hygiene.",
+  },
+  {
+    icon: FastDelivery,
+    heading: "Fast Delivery",
+    desc: "Get your food delivered hot and on time. Our riders use smart routes so your meals reach you in 30 minutes or less.",
+  },
+  {
+    icon: cash,
+    heading: "Cash on Delivery",
+    desc: "Pay however you like—secure mobile money, card payments, or simply cash by hand when your food arrives.",
+  },
+  {
+    icon: checkout,
+    heading: "Seamless Checkout",
+    desc: "Order in seconds with saved addresses, instant reorders, and easy-to-use checkout built for your convenience.",
+  },
   ];
   return (
     <div className=" py-16 mb-14 w-full">
