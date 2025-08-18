@@ -13,6 +13,9 @@ import ContactUs from "@/components/ContactUs";
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
+      <head>
+        <meta name="google-site-verification" content="PLJH8Edy8zmIYFOkiDNJobNfQOSVbx-1_riiC8P5XWE" />
+      </head>
       {/* Hero Section */}
       <section id="home" className="min-h-screen pt-20 pb-16">
         <div className="flex flex-col sm:flex sm:flex-row items-center gap-4 mb-10 mt-12 justify-between w-[80%] mx-auto">
