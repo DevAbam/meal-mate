@@ -12,6 +12,7 @@ import ContactUs from "@/components/ContactUs";
 
 export default function Home() {
   return (
+    
     <div className="overflow-x-hidden">
       <head>
         <meta name="google-site-verification" content="PLJH8Edy8zmIYFOkiDNJobNfQOSVbx-1_riiC8P5XWE" />
@@ -96,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 bg-gradient-to-b from-white to-gray-50">
+      <section id="about" className="py-10  bg-gradient-to-b from-white to-gray-50">
         <div className="w-[90%] sm:w-[80%] mx-auto mb-12">
           <div className="text-center mb-8">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">

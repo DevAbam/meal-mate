@@ -46,14 +46,14 @@ const Chooseus = () => {
   ];
 
   return (
-    <div className="bg-orange-400/70 -mt-14 pt-16 pb-10">
+    <div className="bg-white -mt-14 pt-16 pb-10 ">
       <div className="w-[80%] pb-11 mb-10 mx-auto">
         <div className="flex flex-col sm:flex-row items-center gap-10 justify-between sm:h-96">
           <div className="h-full grid place-content-center flex-1">
             <Image
               src={chooseusimg}
               alt="chooseus"
-              className="h-80 w-full object-contain"
+              className="h-full w-full object-contain"
             />
           </div>
           <div className="h-full flex-1">
